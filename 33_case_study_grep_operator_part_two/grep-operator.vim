@@ -16,7 +16,7 @@
 :  else
 :   return
 :  endif
-:  silent execute "grep -R " . shellescape(expand(@@)) . " ."
+:  silent execute "grep! -R " . shellescape(expand(@@)) . " ."
 :  copen
 :endfunction
 
